@@ -5,6 +5,7 @@ This repository consists of three main components: the Carbon Credit Token (Carb
 
 ## Components
 ### 1. Carbon Credit Token (CCT)
+@ CarbonCreditToken.sol
 The CarbonCreditToken smart contract is an ERC20 token that represents carbon credits. Each token corresponds to a certain amount of carbon captured or offset through validated environmental projects. This contract allows for the minting, burning, and transfer of carbon credit tokens, while also storing detailed information about each carbon credit issued.
 
 ### Key Features:
@@ -17,9 +18,11 @@ The CarbonCreditToken smart contract is an ERC20 token that represents carbon cr
 **Detailed Carbon Credit Records**: Each minted token is associated with a specific carbon credit, with details stored in a struct.
 
 ### 2. Carbon Trading
+@ CarbonTrading.sol
 The CarbonTrading platform facilitates the buying and selling of carbon credits. Users can list their credits for sale, specifying the amount and price. Buyers can then purchase these credits, with transactions being handled transparently and securely.
 
 ### 3. Carbon Retirement
+@ CarbonRetirement.sol
 The CarbonRetirement system ensures that carbon credits are permanently retired from circulation, thus contributing to environmental sustainability. Users can retire their credits by burning their tokens, effectively removing them from the market.
 
 ## CRIPT Product Vision
